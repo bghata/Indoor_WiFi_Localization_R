@@ -2,10 +2,10 @@
 
 ## Data Overview:
 
-Detecting outdoor localization can done simply and accurately by the use of GPS while using mobile devices. However, indoor localization is still an open problem mainly due to the loss of GPS signal in indoor environments. This database is focused on WLAN fingerprint-based ones or Wi-Fi Fingerprinting.  
+Detecting outdoor localization can done simply and accurately by the use of GPS while using mobile devices. However, indoor localization is still an open problem mainly due to the loss of GPS signal in indoor environments. This database is focused on WLAN fingerprint-based ones or Wi-Fi Fingerprinting.
 The database is collected in 2013 from UJI - Institute of New Imaging Technologies, Universitat Jaume Castellón, Spain, which covers three buildings and 5 floors. 
 It can be used for classification (BUILIDINGID, FLOOR) or regression (LONGITUDE, LATITUDE). 
-This dataset consists of 19937 training data which is the original database to work on, and 1111 validation data which is the test data to predict on.   There are 529 attributes contain the Wi-Fi fingerprint, the coordinates where it was taken, and other useful information.  
+This dataset consists of 19937 training data which is the original database to work on, and 1111 validation data which is the test data to predict on. There are 529 attributes contain the Wi-Fi fingerprint, the coordinates where it was taken, and other useful information. 
 Each Wi-Fi fingerprint can be characterized by the detected Wireless Access Points (WAPs) and the corresponding Received Signal Strength Intensity (RSSI).
 The range of intensity signal is between -104 dBm (extremely poor signal) to 0 dBm.
 Positive value 100 used if WAPs intensity signal was not detected.
