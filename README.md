@@ -29,12 +29,3 @@ The data requires pre-processing and cleaning to be ready for analysis. The pre-
 5-	Creating 4 separate datasets from the training dataset, and each one of them has only WAPs a one of the following attributes (BUILIDINGID, FLOOR, LONGITUDE, LATITUDE). The purpose of this division is to have a higher accuracy since other attributes will not affect the analysis and when applying the models.
 
 
-## Models & Algorithms Tested:
-
-3 models with 3 different algorithms were used in order to train and test the data to reach the prediction.
-These models are K-NN (K-Nearest-Neighbours), Random Forest, and Gradient Boosting Trees.
-
-The process started by dividing the training dataset into trainSet (to apply the model on) which is 75% of the training data, and testSet (to test the model on) which is 25% of the training data. 
-The next step is to apply the model on the validation data and record and compare the results of each model as following:
--	Noting accuracy of BUILIDNGID & FLOOR due to classification data.  
-- Noting R-Squared & MAE (Mean Absolute Error) of LONGITUDE & LATITUDE due to regression data.
